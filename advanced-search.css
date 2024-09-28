@@ -1,0 +1,227 @@
+
+/*link top right google search*/
+
+ul {
+    list-style-type: none;
+    margin-top:20px;
+    margin-left: 1180px;
+    margin-right: 400x;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:13px;
+}
+
+li{
+    display:inline;
+}
+a:link{text-decoration:none; color:rgb(77, 71, 71);}
+
+a:visited {color:rgb(77, 71, 71); text-decoration:none; }
+
+a:hover {text-decoration: underline;}
+
+a:active {text-decoration: underline;}
+
+
+
+/* google logo top left*/
+
+img{
+    position:fixed;
+    margin-top:-35px;
+    margin-left: 10px;
+    width:75px;
+}
+
+/* header Advanced Search*/
+
+h1{
+    position:absolute;
+    top:73px;
+    text-indent:40px;
+    color: rgb(224, 69, 69);
+    font-family:arial;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+/* horizontal line*/
+hr{
+    position: relative;
+    top: 77px;
+    border: none;
+    height: 1px;
+    background: rgba(128, 128, 128, 0.192);
+    margin-bottom: 10px;
+}
+
+/* text: to do this in the search box*/
+
+.todo{
+    margin-left: 758px;
+    white-space: pre;
+    color:grey;
+    font-size:13px;
+    font-weight: bold;
+    
+}
+
+/* text: find pages */
+.pages{
+    position:absolute;
+    margin-top: 10px;
+    color:rgba(0, 0, 0, 0.801);
+}
+
+/* forms style */
+
+.forms{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color:#000000c9;
+    
+}
+
+.search-form{
+    margin-top: 122px;
+    padding-left: 35px;
+}
+
+/* text left side form*/
+
+label{
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    display: inline-block;
+    padding: 3px 6px;
+    text-align: left;
+    width: 150px;
+    vertical-align: top;
+}
+
+/* border style form*/
+
+input[type="text"]{
+    width:550px;
+    height:25px;
+    border-width: thin;
+    border-color:rgba(128, 128, 128, 0.384);
+    margin-left: 60px;
+    margin-right:10px;
+    margin-top:1px;
+    margin-bottom:10px;
+}
+
+input[type="text"]:focus {
+    outline:solid;
+    outline-width:1px;
+    outline-color:rgba(54, 162, 224, 0.849);
+  }
+
+
+.whitespace {
+    display: inline-flex;
+    width: 45%;
+}
+
+/* text right side form*/
+
+.do-this{
+    display:inline;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:11px; 
+    text-align:left;
+    color: rgba(0, 0, 0, 0.692);
+
+}
+
+.text-style{
+font-family:monospace;
+color:grey;
+}
+
+/* submit button*/
+
+.blue-button{
+    margin-top: -15px;
+    position:absolute;
+    margin-left:658px;
+    height: 30px;
+    background-color: rgba(0, 119, 255, 0.877);
+    outline: none;
+    color:white;
+    font-size:11px;
+    padding-inline: 15px;
+    font-weight: bold;
+    border:none;
+    border-radius: 2px;
+}
+
+/*footer*/
+.footer{
+    height: 95px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(58, 61, 61, 0.103);
+    color: hsl(210, 2%, 33%);
+    padding: 0 0px;
+    text-align:left;
+ }
+ 
+ /*country*/
+ .country{
+     position:absolute;
+        margin-left: 29px;
+        margin-top: 36px;
+        margin-bottom: 0;
+        color:grey !important; 
+        font-size: 15px;
+        font-family:Arial, Helvetica, sans-serif;
+ }
+
+ /* footer links*/
+ .about{
+    position:absolute;
+    margin-top: 370px;
+    margin-left: 25px;
+    margin-bottom: 0;
+    color:grey !important; 
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+
+.privacy{
+    position:absolute;
+    margin-top: 370px;
+    margin-left: 180px;
+    margin-bottom: 0;
+    color:grey !important; 
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+   }
+
+   .terms{
+    position:absolute;
+    margin-top: 370px;
+    margin-left: 100px;
+    margin-bottom: 300px;
+    color:grey !important; 
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+   }
+
+     
+  /*horizontal line footer*/
+  .hr2 {
+    border-color:rgba(128, 128, 128, 0.137) !important;
+    display: block;
+    margin-top: -30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: none;
+}
+
+   
